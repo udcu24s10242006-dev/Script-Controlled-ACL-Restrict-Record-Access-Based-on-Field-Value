@@ -1,0 +1,14 @@
+{
+  "label": "Institution Details",
+  "name": "u_institution_details",
+  "extends": null,
+  "fields": [
+    { "label": "Student Roll Number", "type": "String", "default": "javascript:global.getNextObjNumberPadded();", "max_length": 40, "note": "Auto number" },
+    { "label": "Student Name", "type": "Reference", "reference": "sys_user" },
+    { "label": "Faculty Name", "type": "Reference", "reference": "sys_user" },
+    { "label": "Branch", "type": "Choice", "choices": ["ECE", "EEE", "CSE"] },
+    { "label": "Email", "type": "String" },
+    { "label": "Phone Number", "type": "String" },
+    { "label": "Description", "type": "String", "max_length": 1000, "note": "Multi-line text" }
+  ]
+}

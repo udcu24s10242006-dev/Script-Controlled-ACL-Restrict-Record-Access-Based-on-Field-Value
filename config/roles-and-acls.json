@@ -1,0 +1,10 @@
+{
+  "user": { "user_name": "EEEUser", "first_name": "EEE", "last_name": "User", "email": "eeeuser@gmail.com" },
+  "roles": ["bb1", "bb2", "bb3", "bb4"],
+  "acls": [
+    { "operation": "read",   "role": "bb1", "advanced": true, "data_condition": "branch=EEE", "script": "acl/read-acl-script.js" },
+    { "operation": "create", "role": "bb2" },
+    { "operation": "write",  "role": "bb3" },
+    { "operation": "delete", "role": "bb4" }
+  ]
+}

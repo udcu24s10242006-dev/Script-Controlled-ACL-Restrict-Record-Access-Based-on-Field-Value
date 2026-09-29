@@ -1,0 +1,8 @@
+{
+  "name": "servicenow-script-controlled-acl",
+  "version": "1.0.0",
+  "description": "Script-controlled ACL lab: restrict record access based on field value",
+  "scripts": { "lint": "eslint scripts acl" },
+  "devDependencies": { "eslint": "^8.57.0" },
+  "license": "MIT"
+}
